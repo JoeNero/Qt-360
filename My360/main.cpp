@@ -7,10 +7,10 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     //QTextCodec::setCodecForTr(QTextCodec::codecForLocale());
-    QTextCodec *codec = QTextCodec::codecForName("UTF-8");
-    QTextCodec::setCodecForLocale(codec);
-    QTextCodec::setCodecForCStrings(codec);
-    QTextCodec::setCodecForTr(codec);
+//    QTextCodec *codec = QTextCodec::codecForName("UTF-8");
+//    QTextCodec::setCodecForLocale(codec);
+//    QTextCodec::setCodecForCStrings(codec);
+//    QTextCodec::setCodecForTr(codec);
 
     MainWindow* w(MainWindow::getInstance());
     w->show();
